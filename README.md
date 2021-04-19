@@ -9,9 +9,14 @@ The RGB-D-D (RGB-depth-depth) dataset contains 4811 paired samples ranging from 
 The HR and LR depth maps are all captured by Time of Flight sensors to guarantee the same magnitude of depth value as possible. Considering the application scenarios and acquisition capabilities of real low-power LR sensor (the depth camera on phone, etc.), we guarantee little missing values of LR depth maps to avoid the impact of uncaptured original depth map SR task. The RGB-D-D dataset is divided into four main categories:
 ![intro](images/intro.png)
 
+Fig 1. The scenes and corresponding hierarchical content structure of RGB-D-D. The inner ring represents the classification of scenes. The legends express the number of samples and the depth range of corresponding subsets.
+
 ![category](images/category.png)
 
+Table 1. Subset categories and content for RGB-D-D
+
 ## File Naming Conventions and Formats:
+
 ![format](images/format.png)
 
 ## Split
@@ -20,8 +25,10 @@ We randomly split 1586 portraits, 380 plants, 249 models for training and 297 po
 ## Experiments
 ![result](images/result.png)
 
+Fig 2. Visual comparison of × 8 depth map SR results on RGB-D-D. The first two and last two rows are the results of FDSR+ and FDSR++ respectively (a) RGB images. (b) SDF. (c) SVLRM. (d) DJFR. (e) FDKN. (f) DKN. (g) FDSR (trained on NYU v2). (h) FDSR+ / FDSR++ (Trained in downsampling manner / Trained in real-world manner on RGB-D-D). (i) GT.
+
 ## Demo
-![demo](images/demo.mp4)
+Please refer to the webset of our team for additional information: [Mepro](http://mepro.bjtu.edu.cn/resource.html) 
 
 ## Copyright
 The RGB-D-D dataset is available for the academic purpose only. Any researcher who uses the RGB-D-D dataset should obey the licence as below:

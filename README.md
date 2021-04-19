@@ -1,6 +1,6 @@
 # RGB-D-D-Datase-CVPR2021-
 
-Official Dataset introduction of "Towards Fast and Accurate Real-World Depth Super-Resolution: Benchmark Dataset and Baseline. He et al. @CVPR 2021." [arxiv](https://arxiv.org/abs/2104.06174) 
+Official RGB-D-D Dataset introduction of "Towards Fast and Accurate Real-World Depth Super-Resolution: Benchmark Dataset and Baseline. He et al. @CVPR 2021." [arxiv](https://arxiv.org/abs/2104.06174) 
 
 ## Overview
 The RGB-D-D (RGB-depth-depth) dataset contains 4811 paired samples ranging from indoor scenes to challenging outdoor scenes. The "D-D" means the paired LR and HR depth maps captured from the mobile phone (LR sensors) and Lucid Helios (HR sensors), respectively. The RGB-D-D can not only meet the real scenes and real correspondences for depth map SR, but also support the extension of other depth-related tasks, such as hole filling, denoising, etc. More information can be found in our paper.

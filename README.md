@@ -1,4 +1,4 @@
-# RGB-D-D-Datase-CVPR2021-
+# RGB-D-D Dataset
 
 Official RGB-D-D Dataset introduction of "Towards Fast and Accurate Real-World Depth Super-Resolution: Benchmark Dataset and Baseline. He et al. @CVPR 2021." [arxiv](https://arxiv.org/abs/2104.06174) 
 

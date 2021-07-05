@@ -41,10 +41,11 @@ Because the RGB-D-D contains a lot of personal information of the collectors, an
 ## Citation
 If you use our dataset, please cite:
 ```
-@article{he2021towards,
+@inproceedings{he2021towards,
   title={Towards Fast and Accurate Real-World Depth Super-Resolution: Benchmark Dataset and Baseline},
   author={He, Lingzhi and Zhu, Hongguang and Li, Feng and Bai, Huihui and Cong, Runmin and Zhang, Chunjie and Lin, Chunyu and Liu, Meiqin and Zhao, Yao},
-  journal={arXiv preprint arXiv:2104.06174},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9229--9238},
   year={2021}
 }
 ```
